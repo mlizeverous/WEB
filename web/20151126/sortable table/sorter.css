@@ -1,0 +1,55 @@
+body {
+	font-size: 10pt;
+	font-family: Microsoft YaHei, sans-serif;
+	margin-left: 100px;
+}
+
+h1, h2 {
+	font-family: STSong, Verdana, sans-serif;
+}
+
+table{
+	border-collapse: collapse;
+}
+table, th, td {
+	padding: 4px;
+	border: 1px solid grey;
+}
+
+thead {
+	text-align: left;
+	background-color: rgb(2,27,127);
+	color: white;
+	cursor: pointer;
+}
+
+th span {
+	float: right;
+}
+
+.alternate {
+	background-color: rgb(221,221,221);
+}
+
+.down {
+	margin-left: 5px;
+	width: 16px;
+	height: 16px;
+	background-image: url("image/descend.png");
+}
+
+.top {
+	margin-left: 5px;
+	height: 16px;
+	width: 16px;
+	background-image: url("image/ascend.png");
+}
+
+.none {
+	margin-left: 5px;
+	height: 16px;
+	width: 16px;
+}
+.change {
+	background-color:rgb(164,176,252);
+}

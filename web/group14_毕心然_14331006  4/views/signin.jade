@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .total
+    #all
+      #h1
+        h1 #{title}
+      p #{hint}
+      #form
+        form(method="post")
+          #name
+            用户名：
+            input(type="text", name="username")
+          .gap
+          div
+            密码：
+            input(type="password", name="password")
+          .gap
+          .signin
+            input(type="submit", value="登录", class="button")
+          a(href="/regist" class="button") 注册

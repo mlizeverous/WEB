@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../public/stylesheets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+  </head>
+  <body>
+    <h1>注册用户</h1>
+    <form method="post">
+      <div class="username">
+        <label for="username">用户名</label>
+        <input id="username" name="username" value=""><span class="error"></span>
+      </div>
+      <div class="sid">
+        <label for="sid">学号</label>
+        <input id="sid" name="sid" value=""><span class="error"></span>
+      </div>
+      <div class="password">
+        <label for="password">密码</label>
+        <input id="password" name="password" value="" type="password"><span class="error"></span>
+      </div>
+      <div class="repeat-password">
+        <label for="repeat-password">确认密码</label>
+        <input id="repeat-password" type="password"><span class="error"></span>
+      </div>
+      <div class="phone">
+        <label for="phone">电话</label>
+        <input id="phone" name="phone" value=""><span class="error"></span>
+      </div>
+      <div class="email">
+        <label for="email">邮箱</label>
+        <input id="email" name="email" value=""><span class="error"></span>
+      </div>
+      <div class="buttons">
+        <input type="reset" value="清除" class="button reset">
+        <input type="submit" value="提交" class="button submit">
+      </div>
+    </form>
+    <script type="text/javascript" src="../public/javascripts/validator.js"></script>
+    <script type="text/javascript" src="../public/javascripts/signup.js"></script>
+  </body>
+</html>

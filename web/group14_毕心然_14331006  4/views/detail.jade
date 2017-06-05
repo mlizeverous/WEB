@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .total
+    #all
+      #h1
+        h1 #{title}
+      p #{hint}
+      #detail
+        form(method="post")
+          #name 用户名： #{user.username}
+          div 学号： #{user.number}
+          div 电话： #{user.tel}
+          div 邮箱： #{user.email}
+
+          #logout
+            input(type="submit", value="退出", action="http://127.0.0.1:3000/", method="post", class="button")

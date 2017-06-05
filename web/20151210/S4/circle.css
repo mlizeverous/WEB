@@ -1,0 +1,211 @@
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#at-plus-container { /*the largest box*/
+    position: relative;
+    top: 450px;
+    bottom: 0px;
+    left: 50%;
+    height:26px;
+    width: 26px;
+}
+
+li{ 
+    list-style-type: none;
+}
+li span{
+    margin-left: 5px;
+    vertical-align: top;
+    font-weight: bold;
+    color: white;
+}
+
+#bottom-positioner { /*the box to control the size of hover*/
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height:26px;
+    width: 26px;
+}
+
+#button { /*contains */
+    opacity: 1;
+    position: fixed;
+    top: 450px;
+    bottom: 0px;
+    left: 50%;
+    width: 26px;
+    height: 26px;
+}
+
+
+#info-bar { /*the box of the biggest information icon*/
+    opacity: 0;
+    border-radius: 50%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 26px;
+    width: 26px;
+    background-color: rgb(115,115,115);
+    overflow: hidden;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+#sequence {
+    position: absolute;
+    left: -24px;
+    top: -185px;
+    width: 200px;
+    height: 20px;
+}
+
+p {
+    font-size: 50px;
+    color: #25E7A1;
+    position: absolute;
+    top: -18px;
+    left: 34px;
+}
+
+#bottom-positioner:hover #info-bar { /*changes of the information box*/
+    opacity: 1;
+    position: absolute;
+    left: -50px;
+    top: -145px;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(135,135,135);
+    border-radius: 50%;
+}
+
+#bottom-positioner:hover { /*changes of the hover size*/
+    position: absolute;
+    top: -50px;
+    left: -80px;
+
+    height: 150px;
+    width: 155px;
+}
+
+#control-ring-container { /*the box of all small buttons*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 26px;
+    height: 26px;
+
+}
+
+.button {
+    opacity: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-size: 15px 15px;
+    background-color: rgb(104,104,104);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+
+.word {
+    position: absolute;
+    left: 16%;
+    top: 25%;
+}
+
+.unread{
+    opacity: 1;
+    position: absolute;
+    padding-top: 1px;
+    top: 0px;
+    left: 15px;
+    background-color: red;
+    border-radius: 50%;
+    width: 16px;
+    height: 15px;
+    background-position: center;
+    text-align: center;
+    font-size: 3pt;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+#bottom-positioner:hover .button {
+    opacity: 1;
+    width: 30px;
+    height: 30px;
+}
+
+
+#bottom-positioner:hover .mask{ /*changes of the mask icon*/
+    top: -30px;
+    left: -60px;
+}
+
+#bottom-positioner:hover .history{ /*changes of the history icon*/
+    top: 7px;
+    left: -73px;
+}
+
+#bottom-positioner:hover .message{ /*changes of the message icon*/
+    top: 45px;
+    left: -58px;
+}
+
+#bottom-positioner:hover .setting{ /*changes of the setting icon*/
+    top: 65px;
+    left: -21px;
+}
+#bottom-positioner:hover .sign{ /*changes of the sign icon*/
+    top: 59px;
+    left: 21px;
+}
+
+#apb {
+    opacity: 1;
+    position: fixed;
+    top: 450px;
+    bottom: 0px;
+    left: 50%;
+    background-image: url("assets/images/atplus_white.png");
+    background-size: 20px 15px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    background-color: rgb(160,160,160);
+    border-radius: 50%;
+    background-position: center;
+    transition: all 1s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition-delay: .5s;
+}
+
+#bottom-positioner:hover #apb { /*changes of the @ icon*/
+    opacity: 1;
+    transform:scale(2, 2);
+    background-color: rgba(48, 63, 159, 1);
+    background-image: url("assets/images/atplus_green.png" );
+    background-size: 18px 13px;
+    background-repeat: no-repeat;
+    transition-delay: 0s;   
+}

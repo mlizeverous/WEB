@@ -1,0 +1,43 @@
+extends layout
+
+block content
+  .total
+    #all
+      
+      #h1
+        h1 #{title}
+        #a
+          a(href="/") / 登录
+      #form
+        form(method="post")
+          #name
+            用户名：
+            input(type="text", name="username", value=user.username, class="blur")
+          #n_valid= n_valid
+          div
+            密码 : 
+            input(type="password", name="password", class="blur")
+          #password_valid
+          #repeat
+            重复密码 : 
+            input(type="password", name="passwordd", class="blur")
+          #again_valid
+          div
+            | &#23398;&#21495;&#65306;
+            input(type="text", name="number", value=user.number, class="blur")
+          #num_valid= num_valid
+          div
+            | &#30005;&#35805;&#65306;
+            input(type="text", name="tel", value=user.tel, class="blur")
+          #tel_valid= tel_valid
+          div
+            | &#37038;&#31665;&#65306;
+            input(type="text", name="email", value=user.email, class="blur")
+          #email_valid= email_valid
+          .upload
+            input(type="submit", value="提交", action="http://127.0.0.1:8000/", method="post", class="button")
+          .reset
+            input(type="button", value="重置", class="button")
+
+
+  

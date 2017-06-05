@@ -1,0 +1,90 @@
+body {
+	font-family: Microsoft YaHei, sans-serif;
+	background-image: url("http://img1.juimg.com/150517/330608-15051G2055484.jpg");
+}
+
+#all {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,0.5);
+	border: 1px solid grey;
+	box-shadow: 0px 0px 20px 5px grey;
+}
+
+#h1 {
+	margin-left: 135px;
+	margin-top: 45px;
+
+}
+
+#form {
+	margin-left: 85px;
+	margin-top: 20px;
+
+}
+
+.upload,.reset {
+	display: inline-block;
+	margin-left: 60px;
+	height: 30px;
+	width: 30px;
+	font-size: 12pt;
+}
+
+input {
+	margin-top: 10px;
+}
+
+#n_valid,#num_valid,#tel_valid,#email_valid {
+	height: 20px;
+	width: 280px;
+	position: relative;
+	left: 50px;
+	top: 0px;
+	font-size: 8pt;
+	color: rgb(255,97,0);
+}
+
+#logout {
+	position: relative;
+	left: 110px;
+}
+
+#fail {
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;
+	width: 450px;
+	margin-top: 100px;
+}
+
+#exist {
+	color: rgb(255,97,0);
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+button {
+	margin-left: 150px;
+	margin-top: 30px;
+}
+
+#name {
+	position: relative;
+	left: -15px;
+}
+
+#detail {
+	margin-left: 125px;
+	margin-top: 40px;
+	color: rgb(36,26,36);
+}
+
+#detail div {
+	margin-top: 15px;
+	font-size: 12pt;
+}

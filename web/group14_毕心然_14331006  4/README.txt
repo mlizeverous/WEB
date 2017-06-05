@@ -1,0 +1,3 @@
+1、原本group14_毕心然_14331006文件夹存放在nodejs文件夹内
+
+2、在nodejs中安装mongodb始终没有成功于是选择用mongoose来操作MongoDB

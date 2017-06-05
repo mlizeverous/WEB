@@ -1,0 +1,164 @@
+
+body {
+	background-image: url("image/background.png");
+	font-family: Tahoma, Verdana, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-size: 8pt;
+}
+
+.a {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-size: 24pt;
+	text-align: center;
+	font-weight: bold;
+}
+
+.banner {
+	text-align: center;
+	background-image: url("image/bannerbackground.png");
+	background-repeat: repeat-x;
+	height: 50px;
+}
+
+.all {
+	width: 800px;
+	border: 4px solid gray;
+	margin-left: auto;
+	margin-right: auto;
+} /*the largest box*/
+
+
+.left {
+	width: 550px;
+	float: left;
+} /*left side of the largest box*/
+
+.right {
+	width: 250px;
+	float: right;
+} /*right side of the largest box*/
+
+
+.rotten {
+	top: 0pt;
+	width: 550px;
+	background-image: url("image/rottenbackground.png");
+	text-align: left;
+	background-repeat: repeat-x;
+	font-family: Verdana, Tahoma, sans-serif;
+	color: white;
+}
+
+.h {
+	display: inline;
+	position:relative;
+	bottom: 15px;
+} /*the text of rotten*/
+
+.tt {
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+
+.review {
+	font-weight: bold;
+	background-color: #E1D697;
+	border: 2px solid gray;
+	overflow: hidden;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+.review p {
+	margin: 8px;
+}
+
+.single {
+	padding-bottom: 8px;
+}
+
+.person {
+	margin-bottom: 3em;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+.publication {
+	font-style: italic;
+}
+
+
+.person img {
+	float: left;
+	margin-right: 5px;
+}
+
+.review img {
+	float: left;
+	margin-right: 5px;
+}
+
+.leftre {
+	width: 47%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 0px;
+}
+
+.rightre {
+	width: 47%;
+	float: left;
+	padding: 0px;
+}
+
+.overallview {
+	float: right;
+	width: 250px;
+	height: 412px;
+} /*the poster*/
+
+.information {
+	width: 250px;
+	background-color: #A2B964;
+	font-family: Arial, sans-serif;
+	float: right;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.in dd {
+	margin-bottom: 1em;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 8pt;
+}
+
+.in dt {
+	font-weight: bold;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.bottom {
+	text-align: center;
+	background-color: #A2B964;
+	width: 800px;
+	clear: both;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+.ph {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}

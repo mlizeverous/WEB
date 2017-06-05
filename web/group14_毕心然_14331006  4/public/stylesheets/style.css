@@ -1,0 +1,169 @@
+body {
+	margin: 0px;
+	font-family: Microsoft YaHei, sans-serif;
+	color: rgba(255,255,255,0.8);
+	background-image: url("../images/20130907133045.jpg");
+}
+.total {
+	padding-top: 10px;
+	padding-bottom: 60px;
+	background-color: rgba(55, 47, 45, 0.9);
+}
+
+#all {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	height: 500px;
+	width: 500px;
+	border-radius: 50%;
+}
+
+h1 {
+	margin-left: 215px;
+	margin-top: 45px;
+
+}
+
+.button {
+	height: 35px;
+	width: 100px;
+
+	border: 2px ridge rgba(251,230,255,0.8);
+	border-radius: 5px;
+
+	font-family: Microsoft YaHei, sans-serif;
+	background-color: rgba(81,32,19,1);
+	color: rgba(255,255,255,0.8);
+	cursor: pointer;
+
+	transition: all 0.4s;
+}
+.button:hover{
+	background-color: rgba(188, 74, 46, 0.6);
+	border: 1px solid rgba(188, 74, 46, 0.6);
+}
+
+input {
+	margin-top: 10px;
+	height: 35px;
+	width: 280px;
+	padding-left: 5px;
+
+	background-color: rgba(99,86,82,0.8);
+	border: 1px solid rgba(99,86,82,0.8);
+	border-radius: 10px;
+	transition: all 0.4s;
+}
+
+input:hover{
+	background-color: rgba(207, 189, 173, 0.6);
+	border: 1px solid rgba(207,189,173,0.6);
+}
+input:focus{
+	outline:none;
+	background-color: rgba(240, 232, 157, 0.5);
+	border: 1px solid rgba(240, 232, 157, 0.5);
+}
+
+#form {
+	margin-left: 95px;
+	margin-top: 20px;
+}
+
+.upload,.reset,.signin,.signup {
+	display: inline-block;
+	margin-left: 80px;
+	height: 23px;
+	width: 42px;
+	font-size: 10pt;
+}
+
+
+
+#n_valid,#num_valid,#tel_valid,#email_valid,#password_valid,#again_valid {
+	height: 20px;
+	width: 280px;
+	position: relative;
+	left: 50px;
+	top: 0px;
+	font-size: 11pt;
+	font-weight: bold;
+	color: rgb(253,133,13);
+}
+
+#logout {
+	position: relative;
+	left: 196px;
+}
+
+#fail {
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;
+	width: 450px;
+	margin-top: 100px;
+}
+
+
+button {
+	margin-left: 85px;
+	margin-top: 30px;
+
+}
+
+a {
+	font-family: Microsoft YaHei, sans-serif;
+	font-size: 10pt;
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+	margin-left: 75px;
+	padding-left: 37px;
+	padding-right: 37px;
+	padding-top: 7px;
+	padding-bottom: 8px;
+}
+
+.gap{
+	height: 15px;
+}
+
+#name {
+	position: relative;
+	left: -17px;
+}
+#repeat {
+	position: relative;
+	left: -30px;
+}
+
+#detail {
+	margin-left: 57px;
+	margin-top: 40px;
+	padding-left: 97px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	background-color: rgba(99,86,82,0.9);
+	border: 1px dashed rgba(99,86,82,0.9);
+	border-radius: 15px;
+}
+
+#detail div {
+	margin-top: 15px;
+	font-size: 12pt;
+}
+
+p {
+	position: relative;
+	left: 198px;
+	top: 5px;
+	font-size: 14pt;
+	font-weight: bold;
+	color: rgb(228,102,41);
+}
+
+#a{
+	margin-left: 265px;
+	margin-bottom: 0px;
+	margin-top: -44px;
+}

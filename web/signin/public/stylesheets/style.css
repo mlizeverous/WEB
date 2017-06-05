@@ -1,0 +1,153 @@
+body {
+	margin: 0px;
+	font-family: Microsoft YaHei, sans-serif;
+	color: rgb(128, 42, 42);
+	background-image: url("http://www.anawalls.com/repic/image.php?src=http://www.anawalls.com/images/other/vintage-notebook-pen-photography-retro-sepia-bar.jpg&h=800&w=1280");
+	/*"../images/3-140RG35639.jpg");*/
+}
+.total {
+	padding-top: 10px;
+	padding-bottom: 60px;
+	background-color: rgba(255,255,255,0.3);
+}
+
+#all {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	height: 500px;
+	width: 500px;
+	border-radius: 50%;
+}
+
+h1 {
+	margin-left: 249px;
+	margin-top: 45px;
+
+}
+
+input {
+	margin-top: 10px;
+	height: 25px;
+	width: 280px;
+	padding-left: 5px;
+	background-color: rgba(207, 189, 173, 1);
+	border: 1px dashed grey;
+	border-radius: 15px;
+	transition: all 0.4s;
+}
+
+
+input:hover{
+	background-color: rgba(207, 189, 173, 0.6);
+}
+input:focus{
+	outline:none;
+	background-color: rgba(240, 232, 157, 0.7);
+}
+
+#form {
+	margin-left: 135px;
+	margin-top: 20px;
+}
+
+.upload,.reset,.signin,.signup {
+	display: inline-block;
+	margin-left: 88px;
+	height: 23px;
+	width: 42px;
+	font-size: 10pt;
+}
+
+.button {
+	height: 25px;
+	width: 60px;
+	font-family: Microsoft YaHei, sans-serif;
+	color: rgb(128, 42, 42);
+	cursor: pointer;
+}
+
+#n_valid,#num_valid,#tel_valid,#email_valid,#password_valid,#again_valid {
+	height: 20px;
+	width: 280px;
+	position: relative;
+	left: 50px;
+	top: 0px;
+	font-size: 11pt;
+	font-weight: bold;
+	color: rgb(253,133,13);
+}
+
+#logout {
+	position: relative;
+	left: 231px;
+}
+
+#fail {
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;
+	width: 450px;
+	margin-top: 100px;
+}
+
+#exist {
+	color: rgb(255,97,0);
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+button {
+	margin-left: 85px;
+	margin-top: 30px;
+	font-family: Microsoft YaHei, sans-serif;
+	color: rgb(128, 42, 42);
+	border: 1px dashed grey;
+	border-radius: 15px;
+	background-color: rgba(207, 189, 173, 1);
+	cursor: pointer;
+	transition: all 0.4s;
+
+}
+button:hover{
+	background-color: rgba(207, 189, 173, 0.6);
+}
+a {
+	font-family: Microsoft YaHei, sans-serif;
+	color: rgb(128, 42, 42);
+	text-decoration: none;
+}
+
+#name {
+	position: relative;
+	left: -16px;
+}
+#repeat {
+	position: relative;
+	left: -33px;
+}
+
+#detail {
+	margin-left: 125px;
+	margin-top: 40px;
+	padding-left: 55px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	background-color: rgba(240, 232, 157, 0.5);
+	border: 1px dashed grey;
+	border-radius: 15px;
+}
+
+#detail div {
+	margin-top: 15px;
+	font-size: 12pt;
+}
+
+p {
+	position: relative;
+	left: 235px;
+	top: 5px;
+	font-size: 14pt;
+	font-weight: bold;
+	color: rgb(228,102,41);
+}

@@ -1,0 +1,200 @@
+body {
+	font-family: STXihei, Verdana, sans-serif;
+	background-image: url("pic/bamboo.jpg");
+	color: white;
+}
+
+#box {
+	position: relative;
+	top: 150px;
+	width: 370px;
+	height: 368px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	border: 1px solid black;
+	padding-top: 2px;
+	background-color: rgb(189,252,200);
+	/*overflow: hidden;*/
+}
+
+div.pic {
+	/*float: left;*/
+	padding: 0px;
+	width: 88px;
+	height: 88px;
+	border: 1px solid grey;
+	margin-left: 2px;
+	display: inline;
+	z-index:1;
+}
+.pic:hover {
+	transform:scale(1.1, 1.1);
+	transition: all 0.5s;
+}
+
+div#the_pic {
+	opacity: 0;
+	position: absolute;
+	left: -6px;
+	top: -4px;
+	overflow: hidden;
+	z-index:-1;
+}
+
+.p00 {
+	position: absolute;
+	left: 0px;
+	top: 2px;
+}
+.p01 {
+	position: absolute;
+	left: 92px;
+}
+.p02 {
+	position: absolute;
+	left: 184px;
+}
+.p03 {
+	position: absolute;
+	right: 2px;
+}
+
+.p04 {
+	position: absolute;
+	top: 94px;
+	left: 0px;
+}
+.p05 {
+	position: absolute;
+	left: 92px;
+	top: 94px;
+}
+.p06 {
+	position: absolute;
+	left: 184px;
+	top: 94px;
+}
+.p07 {
+	position: absolute;
+	top: 94px;
+	right: 2px;
+}
+
+.p08 {
+	position: absolute;
+	top: 186px;
+	left: 0px;
+}
+.p09 {
+	position: absolute;
+	top: 186px;
+	left: 92px;
+}
+.p10 {
+	position: absolute;
+	top: 186px;
+	left: 184px;
+}
+.p11 {
+	position: absolute;
+	top: 186px;
+	right: 2px;
+}
+
+.p12 {
+	position: absolute;
+	bottom: 2px;
+	left: 0px;
+}
+.p13 {
+	position: absolute;
+	bottom: 2px;
+	left: 92px;
+}
+.p14 {
+	position: absolute;
+	bottom: 2px;
+	left: 184px;
+}
+.p15 {
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+}
+#blank {
+	width: 88px;
+	height: 88px;
+	background-color:none;
+}
+
+#start {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 180px;
+	height: 30px;
+	width: 100px;
+	background-color: rgb(0, 87, 55);
+	text-align: center;
+	padding-top: 10px;
+	box-shadow: 2px 2px 2px grey;
+	transition: all 0.2s;
+}
+#start:active {
+	transform:scale(1.2, 1.2);
+}
+
+#showpic {
+	position: absolute;
+	left: -80px;
+	top: 175px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: rgb(0, 87, 55);
+	font-size: 13pt;
+	text-align: center;
+}
+#showpic:hover{
+	background-color: rgb(189,252,200);
+	color: rgb(0, 87, 55);
+}
+
+div#on{
+	opacity: 1;
+	position: absolute;
+	width: 370px;
+	height: 368px;
+	left: -2px;
+	top: -2px;
+	overflow: hidden;
+	z-index:9999;
+}
+
+#replace {
+	position: absolute;
+	left: -80px;
+	top: 250px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: rgb(0, 87, 55);
+	font-size: 13pt;
+	text-align: center;
+}
+#replace:active{
+	background-color: rgb(189,252,200);
+	color: rgb(0, 87, 55);
+}
+
+#num {
+	position: absolute;
+	left: -120px;
+	top: 100px;
+	height: 30px;
+	width: 100px;
+	border-radius: 10%;
+	background-color: rgb(0, 87, 55);
+	font-size: 13pt;
+	text-align: center;
+}
